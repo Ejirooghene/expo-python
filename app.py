@@ -3,9 +3,7 @@ from flask import Flask, jsonify
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS
-from flask_pymongo import PyMongo
 from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 from sklearn.neighbors import NearestNeighbors
 import pandas as pd
 load_dotenv()
